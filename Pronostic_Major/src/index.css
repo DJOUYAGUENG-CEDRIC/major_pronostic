@@ -24,8 +24,8 @@
 
 /* Réinitialisation : supprime les marges/paddings par défaut du navigateur */
 *, *::before, *::after {
-  /* box-sizing: border-box; */
-  margin: 0.5;
+  box-sizing: border-box;
+  margin: 1;
   padding: 2;
   
 }
