@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(mkdir -p \"c:\\\\Users\\\\LABO-INFOS\\\\Desktop\\\\Major\\\\MP\\\\Pronostic_Major\\\\src\\\\components\" \"c:\\\\Users\\\\LABO-INFOS\\\\Desktop\\\\Major\\\\MP\\\\Pronostic_Major\\\\src\\\\pages\" \"c:\\\\Users\\\\LABO-INFOS\\\\Desktop\\\\Major\\\\MP\\\\Pronostic_Major\\\\src\\\\data\" && echo \"Done\")"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\LABO-INFOS\\Desktop\\Major\\MP\\Pronostic_Major\\src"
+    ]
+  }
+}
