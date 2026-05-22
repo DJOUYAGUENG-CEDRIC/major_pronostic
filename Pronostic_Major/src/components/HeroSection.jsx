@@ -5,7 +5,7 @@ import StatsCounter from './StatsCounter'
 export default function HeroSection() {
   return (
     <section
-      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-16"
+      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden "
       style={{ background: 'linear-gradient(135deg, #0f172a 10%, #0a0a2e 50%, #0f172a 100%)' }}
     >
       {/* Particles */}
