@@ -125,7 +125,7 @@ function BookmakerCarousel({ items }) {
 
   return (
     <div>
-      <div className="relative" style={{ paddingInline: isMobile ? 0 : '48px' }}>
+      <div className="relative" style={{ paddingInline: isMobile ? 0 : '58px' }}>
         <div
           ref={trackRef}
           style={{ display: 'flex', gap: `${gap}px`, overflow: 'hidden', scrollbarWidth: 'none' }}

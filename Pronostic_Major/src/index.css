@@ -24,9 +24,10 @@
 
 /* Réinitialisation : supprime les marges/paddings par défaut du navigateur */
 *, *::before, *::after {
-  box-sizing: border-box;
-  margin: 2;
-  padding: 5;
+  /* box-sizing: border-box; */
+  margin: 0.5;
+  padding: 2;
+  
 }
 
 /* Défilement fluide quand on clique sur un lien d'ancrage */
@@ -38,6 +39,8 @@ body {
   color: #ffffff;                      /* texte blanc par défaut */
   font-family: 'Inter', sans-serif;   /* police principale */
   -webkit-font-smoothing: antialiased; /* texte plus net sur Mac/Chrome */
+  overflow-x: hidden;                  /* empêche le débordement horizontal sur mobile */
+  max-width: 100vw;                    /* limite à la largeur de l'écran */
 }
 
 /* Barre de défilement stylisée (visible sur Chrome/Edge) */
